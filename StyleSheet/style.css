@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  /* font-size: 28px; */
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar #nav-links {
+}
+
+#navbar #nav-links a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar #nav-links a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar #nav-links a.active {
+}
+
+#navbar #homelogo-area {
+}
+
+#navbar #homelogo-area a {
+  float: left;
+  display: block;
+}
+
+#navbar #homelogo-area a img {
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 15px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 48px;
+}
+
+/*Footer CSS*/
+
+footer * {
+  background: #333;
+  width: 100%;
+  color: white;
+}
+
+footer button {
+  width: 200px;
+  height: 40px;
+}
+
+footer button:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+#footer-content {
+  overflow: hidden;
+}
+
+.newsletter {
+  float: left;
+  width: 50%;
+}
+
+.socials {
+  float: left;
+  width: 50%;
+}
+
+.icons {
+  float: left;
+  padding-right: 10px;
+  height: 20px;
+  width: auto;
+}
+
+.email {
+  width: 300px;
+  height: 40px;
+  color: white;
+}
+
+.follow {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,75 @@
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  
+  /* Links inside the navbar */
+  .navbar li {
+    float: right; /* to set the options above to the right*/
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+    font-size: 110%;
+  }
+  
+  /* Change background on mouse-over */
+  .navbar li:hover {
+    background: #ddd;
+    color: black;
+  }
+
+  
+  .price{
+    float: left;
+    overflow: hidden;
+    font-size: 200%;
+    margin-left: 50px;
+    
+  }
+
+  .promotion{
+    float: left;
+    overflow: hidden;
+    font-size: 200%;
+    margin-left: 20px;
+  }
+
+  .cart{
+    float: left;
+    overflow: hidden;
+    font-size: 200%;
+    margin-left: 70px;
+  }
+.checkouttable{
+  font-size: 130%;
+}
+
+.table{
+  position: absolute;
+  top: 550px;
+  margin-left: 49px;
+  font-size: 270%;
+}
+
+.finalStep{
+  position: absolute;
+  top: 550px;
+  left: 1210px;
+  font-size: 200%;
+}
+  .finalStep input{
+    width: 500px;
+    height: 30px;
+  }
+  .finalStep button{
+    font-size: 100%;
+  }
+
+.confirmButton button{
+  font-size: 100%;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ticketing(fixed).css" />
+    <script type="text/javascript" src="TicketingCalculation.js"></script>
+</head>
+<body>
+    
+      <nav class="navbar"> <!--navigation bar-->
+        <li href="#ticketing">Ticketing</li>
+        <li href="#attraction">Attractions</li>
+        <li href="#aboutus">About Us</li>
+      </nav>
+    
+    <div>
+      <section align="left">
+        <article class="price"> <!--pricing and promotion-->
+          <br><br>
+          <h1>Pricing Table:</h1>
+          <img src="ticketingImages/pricingTable.JPG" width= 850px height=auto alt=“Image is unable to load” />
+        </article>
+      </section>
+    </div>
+
+    <div>
+      <section align="left">
+        <article class="promotion"><br><br>
+          <h1>Promotions:</h1>
+          <img src="ticketingImages/promotion.JPG" width= 200px height= auto alt=“Image is unable to load” /><br>
+          <a href="#learnMorePromotion">Learn more&#8594</a>
+        </article>
+      </section>
+    </div>
+
+    <div>
+      <section align="left">
+        <article class="cart"> <!--checkout section-->
+          <br><br>
+            <h1>Your Cart&#128722 :</h1> 
+          <table class="checkouttable"; bordercolor="black"; border="2"; align="left">
+            <tr>
+              <td>Product:</td>
+              <td>Quantity:</td>
+              <td>Total Price:</td>
+              <td>Remove</td>
+            </tr>
+            <tr>
+              <td>Children</td>
+              <td>0</td>
+              <td>$0</td>
+              <td>&#10060</td>
+            </tr>
+            <tr>
+              <td>Adults</td>
+              <td>0</td>
+              <td>$0</td>
+              <td>&#10060</td>
+            </tr>
+            <tr>
+              <td>Seniors</td>
+              <td>0</td>
+              <td>$0</td>
+              <td>&#10060</td>
+            </tr>
+          </table>
+        </article>
+        </section> 
+    </div>
+
+    <div class="table";>
+      <sectionS>
+        <table bordercolor="black"; border="2;"> <!--select tickets-->
+          <tr>
+            <th> Selects Tickets;</th>
+          </tr>
+          <tr>
+            <td>Children&nbsp;&emsp;&emsp;&emsp;+&emsp;0&emsp;-&emsp;</td>
+          </tr>
+          <tr>
+            <td>Adults&nbsp;&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;+&emsp;0&emsp;-&emsp;</td>
+          </tr>
+          <tr>
+            <td>Seniors&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;+&emsp;0&emsp;-&emsp;</td>
+          </tr>
+        </table><br>
+        <table class="confirmButton"; bordercolor="black"> <!--confirm button-->
+          <tr>
+            <th><button onclick="WIP()">Confirm</button></th>
+          </tr>
+        </table>
+      </section>
+    </div>
+  
+    <div class="finalStep">
+      <section align="left"></section>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" email="email">
+        <br><br>
+        <table class="checkoutbutton"; bordercolor="black"; align="center"> <!--checkout button-->
+          <tr>
+            <th><button onclick="WIP()">Checkout</button></th>
+          </tr>
+        </table>
+      </setion>
+    </div>
+</body>
+
+
+</html>
