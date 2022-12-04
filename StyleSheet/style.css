@@ -4,6 +4,7 @@ body {
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
+/*Navigation bar */
 #navbar {
   overflow: hidden;
   background-color: #333;
@@ -54,8 +55,34 @@ body {
   padding-top: 48px;
 }
 
-/*Footer CSS*/
+/*Site Information*/
+#site-information-area {
+  display: -webkit-flex;
+  flex-direction: row;
+}
 
+#site-information-left {
+  flex-grow: 1;
+}
+
+#site-information-right {
+  flex-grow: 1;
+}
+
+.centered-content {
+  text-align: center;
+}
+
+#attraction-cards {
+  display: -webkit-flex;
+  flex-direction: row;
+}
+
+#attraction-cards div {
+  flex-grow: 1;
+}
+
+/*Footer CSS*/
 footer * {
   background: #333;
   width: 100%;
