@@ -1,4 +1,7 @@
-/**{outline: 3px solid limegreen !important;}*/
+*{
+    /*outline: 3px solid limegreen !important;*/
+   box-sizing: border-box; 
+}
 
 body {
   margin: 0;
@@ -18,9 +21,9 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  padding: 20px;
 }
 
 #navbar #nav-links a:hover {
@@ -31,16 +34,18 @@ body {
 #navbar #homelogo-area a {
   float: left;
   display: block;
+  height: 40px;
+  margin: 10px;
 }
 
 #navbar #homelogo-area a img {
   border-radius: 4px;
   height: 40px;
-  padding-left: 15px;
+  aspect-ratio: 1/1;
 }
 
 .content {
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 .section {
@@ -124,7 +129,6 @@ body {
 .grid-2column {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 auto;
   gap: 1rem;
 }
 
@@ -142,15 +146,17 @@ body {
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   gap: 1rem;
+  width:100%;
 }
 
 .card {
   margin: auto;
   align-items: center;
+  padding: 10px;
 }
 
 .card img {
-  max-width: 500px;
+  max-width: 100%;
 }
 
 /*Footer CSS*/
@@ -172,6 +178,7 @@ footer button:hover {
 
 #footer-content {
   overflow: hidden;
+  padding: 10px 20px;
 }
 
 .newsletter {
@@ -194,7 +201,8 @@ footer button:hover {
 .email {
   width: 300px;
   height: 40px;
-  color: white;
+  color: black;
+  background-color: white;
 }
 
 .follow {
